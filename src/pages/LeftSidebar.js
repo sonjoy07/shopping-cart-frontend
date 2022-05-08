@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from "react-router-dom";
 
 export default function LeftSidebar() {
     return (
@@ -17,11 +18,11 @@ export default function LeftSidebar() {
                     <div id="sportswear" className="panel-collapse collapse">
                         <div className="panel-body">
                             <ul>
-                                <li><a href="/">Nike </a></li>
-                                <li><a href="/">Under Armour </a></li>
-                                <li><a href="/">Adidas </a></li>
-                                <li><a href="/">Puma</a></li>
-                                <li><a href="/">ASICS </a></li>
+                                <li><Link to="/">Nike </Link></li>
+                                <li><Link to="/">Under Armour </Link></li>
+                                <li><Link to="/">Adidas </Link></li>
+                                <li><Link to="/">Puma</Link></li>
+                                <li><Link to="/">ASICS </Link></li>
                             </ul>
                         </div>
                     </div>
@@ -38,16 +39,16 @@ export default function LeftSidebar() {
                     <div id="mens" className="panel-collapse collapse">
                         <div className="panel-body">
                             <ul>
-                                <li><a href="/">Fendi</a></li>
-                                <li><a href="/">Guess</a></li>
-                                <li><a href="/">Valentino</a></li>
-                                <li><a href="/">Dior</a></li>
-                                <li><a href="/">Versace</a></li>
-                                <li><a href="/">Armani</a></li>
-                                <li><a href="/">Prada</a></li>
-                                <li><a href="/">Dolce and Gabbana</a></li>
-                                <li><a href="/">Chanel</a></li>
-                                <li><a href="/">Gucci</a></li>
+                                <li><Link to="/">Fendi</Link></li>
+                                <li><Link to="/">Guess</Link></li>
+                                <li><Link to="/">Valentino</Link></li>
+                                <li><Link to="/">Dior</Link></li>
+                                <li><Link to="/">Versace</Link></li>
+                                <li><Link to="/">Armani</Link></li>
+                                <li><Link to="/">Prada</Link></li>
+                                <li><Link to="/">Dolce and Gabbana</Link></li>
+                                <li><Link to="/">Chanel</Link></li>
+                                <li><Link to="/">Gucci</Link></li>
                             </ul>
                         </div>
                     </div>
@@ -64,48 +65,48 @@ export default function LeftSidebar() {
                     <div id="womens" className="panel-collapse collapse">
                         <div className="panel-body">
                             <ul>
-                                <li><a href="/">Fendi</a></li>
-                                <li><a href="/">Guess</a></li>
-                                <li><a href="/">Valentino</a></li>
-                                <li><a href="/">Dior</a></li>
-                                <li><a href="/">Versace</a></li>
+                                <li><Link to="/">Fendi</Link></li>
+                                <li><Link to="/">Guess</Link></li>
+                                <li><Link to="/">Valentino</Link></li>
+                                <li><Link to="/">Dior</Link></li>
+                                <li><Link to="/">Versace</Link></li>
                             </ul>
                         </div>
                     </div>
                 </div>
                 <div className="panel panel-default">
                     <div className="panel-heading">
-                        <h4 className="panel-title"><a href="/">Kids</a></h4>
+                        <h4 className="panel-title"><Link to="/">Kids</Link></h4>
                     </div>
                 </div>
                 <div className="panel panel-default">
                     <div className="panel-heading">
-                        <h4 className="panel-title"><a href="/">Fashion</a></h4>
+                        <h4 className="panel-title"><Link to="/">Fashion</Link></h4>
                     </div>
                 </div>
                 <div className="panel panel-default">
                     <div className="panel-heading">
-                        <h4 className="panel-title"><a href="/">Households</a></h4>
+                        <h4 className="panel-title"><Link to="/">Households</Link></h4>
                     </div>
                 </div>
                 <div className="panel panel-default">
                     <div className="panel-heading">
-                        <h4 className="panel-title"><a href="/">Interiors</a></h4>
+                        <h4 className="panel-title"><Link to="/">Interiors</Link></h4>
                     </div>
                 </div>
                 <div className="panel panel-default">
                     <div className="panel-heading">
-                        <h4 className="panel-title"><a href="/">Clothing</a></h4>
+                        <h4 className="panel-title"><Link to="/">Clothing</Link></h4>
                     </div>
                 </div>
                 <div className="panel panel-default">
                     <div className="panel-heading">
-                        <h4 className="panel-title"><a href="/">Bags</a></h4>
+                        <h4 className="panel-title"><Link to="/">Bags</Link></h4>
                     </div>
                 </div>
                 <div className="panel panel-default">
                     <div className="panel-heading">
-                        <h4 className="panel-title"><a href="/">Shoes</a></h4>
+                        <h4 className="panel-title"><Link to="/">Shoes</Link></h4>
                     </div>
                 </div>
             </div>{/*/category-products*/}
@@ -113,13 +114,13 @@ export default function LeftSidebar() {
                 <h2>Brands</h2>
                 <div className="brands-name">
                     <ul className="nav nav-pills nav-stacked">
-                        <li><a href="/"> <span className="pull-right">(50)</span>Acne</a></li>
-                        <li><a href="/"> <span className="pull-right">(56)</span>Grüne Erde</a></li>
-                        <li><a href="/"> <span className="pull-right">(27)</span>Albiro</a></li>
-                        <li><a href="/"> <span className="pull-right">(32)</span>Ronhill</a></li>
-                        <li><a href="/"> <span className="pull-right">(5)</span>Oddmolly</a></li>
-                        <li><a href="/"> <span className="pull-right">(9)</span>Boudestijn</a></li>
-                        <li><a href="/"> <span className="pull-right">(4)</span>Rösch creative culture</a></li>
+                        <li><Link to="/"> <span className="pull-right">(50)</span>Acne</Link></li>
+                        <li><Link to="/"> <span className="pull-right">(56)</span>Grüne Erde</Link></li>
+                        <li><Link to="/"> <span className="pull-right">(27)</span>Albiro</Link></li>
+                        <li><Link to="/"> <span className="pull-right">(32)</span>Ronhill</Link></li>
+                        <li><Link to="/"> <span className="pull-right">(5)</span>Oddmolly</Link></li>
+                        <li><Link to="/"> <span className="pull-right">(9)</span>Boudestijn</Link></li>
+                        <li><Link to="/"> <span className="pull-right">(4)</span>Rösch creative culture</Link></li>
                     </ul>
                 </div>
             </div>{/*/brands_products*/}

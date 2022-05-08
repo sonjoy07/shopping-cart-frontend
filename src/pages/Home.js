@@ -1,6 +1,5 @@
 import React from 'react'
 import FeatureItems from './FeatureItems';
-import Footer from './Footer';
 import LeftSidebar from './LeftSidebar';
 import Slider from './Slider';
 
@@ -372,7 +371,6 @@ export default function Home() {
               </div>
             </div>
           </section>
-          <Footer/>
         </div>
       );
 }

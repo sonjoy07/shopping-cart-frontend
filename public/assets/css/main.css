@@ -1559,7 +1559,7 @@ h2.title {
 }
 
 #cart_items .cart_info .table.table-condensed tr {
-    border-bottom: 1px solid#F7F7F0
+    border-bottom: 1px solid #F7F7F0
 }
 
 #cart_items .cart_info .table.table-condensed tr:last-child {
@@ -1711,7 +1711,7 @@ h2.title {
 
 .user_info .single_field.zip-field input {
     background: transparent;
-    border: 1px solid#F0F0E9
+    border: 1px solid #F0F0E9
 }
 
 .user_info>li {
@@ -2309,7 +2309,7 @@ textarea {
 
 .text-area textarea {
     background: transparent;
-    border: 1px solid#F7F7F0
+    border: 1px solid #F7F7F0
 }
 
 .btn.btn-primary {
@@ -2438,4 +2438,69 @@ textarea {
 
 .contact-info .social-networks ul li a:hover {
     color: #FE980F;
+}
+
+.carousel-item {
+    position: relative;
+    display: none;
+    float: left;
+    width: 100%;
+    margin-right: -100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    transition: transform .6s ease-in-out;
+}
+.carousel-item-next, .carousel-item-prev, .carousel-item.active {
+    display: block;
+}
+
+.carousel-control-next, .carousel-control-prev {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 15%;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+    background: 0 0;
+    border: 0;
+    opacity: .8s;
+    transition: opacity .15s ease;
+}
+
+.carousel-control-next {
+    right: -100px;
+}
+.carousel-control-prev {
+    left: -150px;
+}
+.carousel-control-prev-icon {
+    background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGlkPSJDYXBhXzEiIHg9IjBweCIgeT0iMHB4IiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCA0Ny4yNTUgNDcuMjU1OyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSIgdmlld0JveD0iMTEuMzEgMCAyNC42MyA0Ny4yNiI+CjxnPgoJPHBhdGggZD0iTTM0Ljk0MSw0Ny4yNTVjLTAuMjU2LDAtMC41MTItMC4wOTgtMC43MDctMC4yOTNMMTEuNjA3LDI0LjMzNGMtMC4zOTEtMC4zOTEtMC4zOTEtMS4wMjMsMC0xLjQxNEwzNC4yMzQsMC4yOTMgICBjMC4zOTEtMC4zOTEsMS4wMjMtMC4zOTEsMS40MTQsMHMwLjM5MSwxLjAyMywwLDEuNDE0bC0yMS45MiwyMS45MmwyMS45MiwyMS45MmMwLjM5MSwwLjM5MSwwLjM5MSwxLjAyMywwLDEuNDE0ICAgQzM1LjQ1Myw0Ny4xNTcsMzUuMTk3LDQ3LjI1NSwzNC45NDEsNDcuMjU1eiIvPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+Cjwvc3ZnPg==');
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    display: inline-block;
+    width: 4rem;
+    height: 4rem;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: 100% 100%;
+}
+.visually-hidden, .visually-hidden-focusable:not(:focus):not(:focus-within) {
+    position: absolute!important;
+    width: 1px!important;
+    height: 1px!important;
+    padding: 0!important;
+    margin: -1px!important;
+    overflow: hidden!important;
+    clip: rect(0,0,0,0)!important;
+    white-space: nowrap!important;
+    border: 0!important;
+}
+.carousel-control-next-icon {
+    background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pg0KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDE5LjAuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPg0KPHN2ZyB2ZXJzaW9uPSIxLjEiIGlkPSJDYXBhXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4Ig0KCSB2aWV3Qm94PSIwIDAgNDcuMjU1IDQ3LjI1NSIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgNDcuMjU1IDQ3LjI1NTsiIHhtbDpzcGFjZT0icHJlc2VydmUiPg0KPGc+DQoJPHBhdGggZD0iTTEyLjMxNCw0Ny4yNTVjLTAuMjU2LDAtMC41MTItMC4wOTgtMC43MDctMC4yOTNjLTAuMzkxLTAuMzkxLTAuMzkxLTEuMDIzLDAtMS40MTRsMjEuOTItMjEuOTJsLTIxLjkyLTIxLjkyDQoJCWMtMC4zOTEtMC4zOTEtMC4zOTEtMS4wMjMsMC0xLjQxNHMxLjAyMy0wLjM5MSwxLjQxNCwwTDM1LjY0OCwyMi45MmMwLjM5MSwwLjM5MSwwLjM5MSwxLjAyMywwLDEuNDE0TDEzLjAyMSw0Ni45NjINCgkJQzEyLjgyNSw0Ny4xNTcsMTIuNTcsNDcuMjU1LDEyLjMxNCw0Ny4yNTV6Ii8+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8L3N2Zz4NCg==');
 }
